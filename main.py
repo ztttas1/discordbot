@@ -14,7 +14,7 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 HCAPTCHA_SITE_KEY = os.getenv("HCAPTCHA_SITE_KEY")
 HCAPTCHA_SECRET_KEY = os.getenv("HCAPTCHA_SECRET_KEY")
-FLASK_URL = "http://your-flask-url.com"  # Flaskサーバーの公開URL（ngrokなど）
+FLASK_URL = "https://ztk.stars.ne.jp"  # Flaskサーバーの公開URL（ngrokなど）
 
 # Discordボットの設定
 intents = discord.Intents.default()
